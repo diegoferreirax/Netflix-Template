@@ -9,3 +9,16 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
+
+.jc-ce {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.fd-clm {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
