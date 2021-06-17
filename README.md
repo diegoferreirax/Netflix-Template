@@ -1,2 +1,2 @@
 # Netflix-Template
-Creation of the Angular Netflix Template for training purposes and application of design patterns using Typescript.
+Creation of the Netflix template with Angular and SCSS for training purposes and application of possible designer patterns.
