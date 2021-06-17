@@ -1,0 +1,15 @@
+$background-header: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+$color-text-navegation: #e5e5e5;
+
+#header {
+    background: $background-header;
+
+    img.logo {
+        width: 100px;
+        height: 25px;
+    }
+
+    #navegation {
+        color: $color-text-navegation;
+    }
+}
