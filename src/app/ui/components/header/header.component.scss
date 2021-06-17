@@ -1,15 +1,42 @@
-$background-header: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
-$color-text-navegation: #e5e5e5;
+$padding-left-header: 54px;
+$padding-left-header-mobile: 5%;
 
 #header {
-    background: $background-header;
+    background: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0));
+    height: 50px;
+    padding-top: 23px;
+    padding-left: $padding-left-header;
 
     img.logo {
-        width: 100px;
+        width: 92px;
         height: 25px;
     }
 
     #navegation {
-        color: $color-text-navegation;
+        color: #e5e5e5;
+    }
+
+    #navegation-options {
+        position: absolute;
+        right: $padding-left-header;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #header {
+        padding-left: $padding-left-header-mobile;
+
+        #navegation-options {
+            right: $padding-left-header-mobile;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #header {
+        img.logo {
+            width: 60px;
+            height: 19px;
+        }
     }
 }
