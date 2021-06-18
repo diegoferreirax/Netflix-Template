@@ -20,5 +20,10 @@
         letter-spacing: 2px;
         cursor: pointer;
         background-color: transparent;
+
+        &:hover {
+            border: 1px solid #FFF;
+            color: #FFF;
+        }
     }
 }
