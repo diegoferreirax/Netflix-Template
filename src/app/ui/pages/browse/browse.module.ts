@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
+import { ComponentsModule } from '../../components/components.module';
 import { BrowseRoutingModule } from '../../routing/browse-routing.module';
+
 import { BrowseComponent } from './browse.component';
 
 @NgModule({
@@ -7,7 +9,8 @@ import { BrowseComponent } from './browse.component';
     BrowseComponent
   ],
   imports: [
-    BrowseRoutingModule
+    BrowseRoutingModule,
+    ComponentsModule
   ],
   exports: [
     BrowseComponent
