@@ -1,0 +1,9 @@
+@import './app/styles/variables.scss';
+@import './app/styles/custom-classes.scss';
+
+body, html {
+    background: $backgroud-application;
+    font-family: $font-application;
+    margin: 0;
+    padding: 0;
+}
